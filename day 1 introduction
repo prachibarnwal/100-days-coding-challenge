@@ -1,0 +1,6 @@
+print("*"*50)
+print("This is Prachi Barnwal.")
+print("I am a class 12th Student.")
+print("I Love Coding.")
+print("I have passed my 10th with 70% marks")
+print("*"*50)
