@@ -1,0 +1,23 @@
+name = input("Enter Name : ")
+eng = float(input("Enter Marks in English : "))
+math = float(input("Enter Marks in Mathematics : "))
+sci = float(input("Enter Marks in Science : "))
+sst = float(input("Enter Marks in Social Science : "))
+hindi = float(input("Enter Marks in Hindi : "))
+total = eng + math + sci + sst + hindi
+per = total / 5
+print("-"*50)
+print("Report Card for ",name)
+print("-"*50)
+print("MARKS SCORED IS ",total)
+print("PERCENTAGE SCORED IS : ",per, "%")
+if per >= 40:
+    print("YOU'VE PASSED YOUR EXAMS......Congrats....!!")
+else:
+    print("BETTER LUCK NEXT TIME.....!")
+print("-"*50)
+
+
+
+
+
