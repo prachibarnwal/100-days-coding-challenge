@@ -1,0 +1,17 @@
+#if sum of factor is the number itself the number is said to be perfect
+while True:
+    print("Press 1 - to check a number")
+    print("Press 2 - to close the program")
+    ch = int(input("ENTER YOUR CHOICE : "))
+    if ch == 1:
+        n = int(input("Enter  a number : "))
+        s = 0
+        for a in range(1,n):
+            if n % a == 0:
+                s += a
+        if s == n:
+            print(n," IS A PERFECT NUMBER")
+        else:
+            print(n, "IS NOT A PERFECT NUMBER")
+    else:
+        break
